@@ -13,7 +13,7 @@
 
 <body>
     <!-- Centra todo el contenido -->
-    <div class="container-fluid border">
+    <div class="container border">
         <!-- Definir fila -->
         <div class="row">
             <!-- Creando el header -->
