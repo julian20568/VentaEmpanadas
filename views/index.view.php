@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0">
     <title>App Venta Empanadas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -24,13 +24,14 @@
             </header>
             <!-- definiendo el menu -->
 
-            <nav id="menu" class="col-12 navbar navbar-dark bg-dark p-0 pl-4">
+            <nav id="menu" class="col-12 navbar navbar-dark bg-dark p-0 pl-4
+                                  d-none d-sm-none d-md-block">
                 <!-- Creando la lista del menu -->
                 <ul class="row w-50">
-                    <li class="col"><a style="color:white" href="index.view.php">Inicio</a></li>
-                    <li class="col"><a style="color:white" href="productos.view.php">Productos</a></li>
-                    <li class="col"><a style="color:white" href="empresa.view.php">Empresa</a></li>
-                    <li class="col"><a style="color:white" href="contacto.view.php">Contacto</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="index.view.php">Inicio</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="productos.view.php">Productos</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="Contacto.php">Contacto</a></li>
                 </ul>
             </nav>
             <!-- Creando el contenido -->
@@ -40,7 +41,7 @@
                         <div class="items">
                             <!--  -->
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
 
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
@@ -140,15 +141,15 @@
                                 <!--  -->
                                 <h2 style="text-align:center">Productos Principales</h2>
                                 <div class="row">
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <img src="https://cdn.pixabay.com/photo/2020/02/11/19/03/meal-4840665__340.jpg"
                                             width="316" height="190">
                                     </div>
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <img src="https://media.istockphoto.com/photos/feet-picture-id1171946922?b=1&k=20&m=1171946922&s=170667a&w=0&h=mVWtXcgb4zW67z89gHHoodbTSVZsqRTPoYll2uswzL8="
                                             width="316" height="190">
                                     </div>
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <img src="https://media.istockphoto.com/photos/feet-picture-id1171946922?k=20&m=1171946922&s=612x612&w=0&h=YFem5_iZvZb8e5Yfam5EphNKrnzgaFzFLVqAMsZumfA="
                                             width="316" height="190">
                                     </div>

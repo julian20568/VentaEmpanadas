@@ -126,3 +126,10 @@ form input[type="submit"]{
 /* form input[type="submit"]:hover{
 	background: #E64a19;
 } */
+
+/* Responsive */
+@media (max-width: 768px){
+	#menu{
+		height: auto;
+	}
+}

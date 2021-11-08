@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0">
     <title>App Venta Empanadas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,10 +27,10 @@
             <nav id="menu" class="col-12 navbar navbar-dark bg-dark p-0 pl-4">
                 <!-- Creando la lista del menu -->
                 <ul class="row w-50">
-                    <li class="col"><a style="color:white" href="index.view.php">Inicio</a></li>
-                    <li class="col"><a style="color:white" href="productos.view.php">Productos</a></li>
-                    <li class="col"><a style="color:white" href="empresa.view.php">Empresa</a></li>
-                    <li class="col"><a style="color:white" href="contacto.view.php">Contacto</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="index.view.php">Inicio</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="productos.view.php">Productos</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="Contacto.php">Contacto</a></li>
                 </ul>
             </nav>
             <!-- Creando el contenido -->
@@ -40,7 +40,7 @@
                         <div class="items">
                             <!--  -->
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
                                             <li data-target="#carouselExampleIndicators" data-slide-to="0"
@@ -83,15 +83,15 @@
                             <!--  -->
                             <h2 style="text-align:center">Productos Principales</h2>
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2020/02/11/19/03/meal-4840665__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://media.istockphoto.com/photos/feet-picture-id1171946922?b=1&k=20&m=1171946922&s=170667a&w=0&h=mVWtXcgb4zW67z89gHHoodbTSVZsqRTPoYll2uswzL8="
                                         class="rounded-circle" width="215" height="215">
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2020/02/11/19/03/meal-4840667__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
@@ -99,21 +99,21 @@
 
                             </br></br></br>
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada Aborrajada</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
                                             </strong></i></h3>
                                     <p>Con relleno de plátano maduro cocinado, macerado, queso y bocadillo.</p>
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada de Carne</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
                                             </strong></i></h3>
                                     <p>Con relleno de Queso, Carne y papa pastusa.</p>
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada Hawaiana</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
@@ -124,15 +124,15 @@
 
                             <br><br><br>
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2018/08/15/00/07/fried-food-3606942__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2015/01/08/04/02/empanadas-592358__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2019/12/23/20/05/schnitzel-4715320__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
@@ -140,21 +140,21 @@
 
                             </br></br></br>
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada de Lechona</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
                                             </strong></i></h3>
                                     <p>Contine carne, chicharron, arbeja y arroz.</p>
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada Mixta</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
                                             </strong></i></h3>
                                     <p>Con relleno de Pollo, Carne y Arroz.</p>
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada de Pollo con Champiñones</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
@@ -165,15 +165,15 @@
 
                             <br><br><br>
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2020/04/23/02/27/pasties-5080794__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2016/11/11/17/49/schnitzel-1817337__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <img src="https://cdn.pixabay.com/photo/2020/06/05/18/37/pie-5264080__340.jpg"
                                         class="rounded-circle" width="215" height="215">
                                 </div>
@@ -181,21 +181,21 @@
 
                             </br></br></br>
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada Ranchera</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
                                             </strong></i></h3>
                                     <p>Contiene Queso y una salchicha ahumada McPollo partida por la mitad.</p>
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Empanada Trifásica</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>
                                             </strong></i></h3>
                                     <p>Contiene relleno de Carne, Pollo y Huevo.</p>
                                 </div>
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <h3><i><strong>Cockteleras</strong></i></h3>
                                     <h3><i><strong>
                                                 <hr>

@@ -35,18 +35,19 @@ if (isset($_POST['submit'])) {
 	}
 	/*comprobar si no hay errores*/
 	if (!$errores) {
-		$enviar_a = 'julianobando@gmail.com';
+		$enviar_a = 'jaop17@hotmail.com';
 		$asunto = 'Correo enviado desde mi pagina.com';
 		$mensaje_preparado = "De: $nombre \n";
 		$mensaje_preparado .= "Correo: $correo \n";
 		$mensaje_preparado .= "Mensaje: " . $mensaje;
 
-		//mail($enviar_a, $asunto, $mensaje_preparado);
+		//Para que el email se envie se debe probar en un dominio
+		#mail($enviar_a, $asunto, $mensaje_preparado);
 		$enviado = 'true';
 	}
 
 }
 
-require 'views/contacto.view.php';
+require 'contacto.view.php';
 
 ?>

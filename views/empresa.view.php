@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalabe=no, initial-scale=1.0">
     <title>App Venta Empanadas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,10 +27,10 @@
             <nav id="menu" class="col-12 navbar navbar-dark bg-dark p-0 pl-4">
                 <!-- Creando la lista del menu -->
                 <ul class="row w-50">
-                    <li class="col"><a style="color:white" href="index.view.php">Inicio</a></li>
-                    <li class="col"><a style="color:white" href="productos.view.php">Productos</a></li>
-                    <li class="col"><a style="color:white" href="empresa.view.php">Empresa</a></li>
-                    <li class="col"><a style="color:white" href="contacto.view.php">Contacto</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="index.view.php">Inicio</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="productos.view.php">Productos</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="Contacto.php">Contacto</a></li>
                 </ul>
             </nav>
             <!-- Creando el contenido -->
@@ -40,13 +40,13 @@
                         <div class="items">
                             <!--  -->
                             <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <div class="row">
-                                        <div class="item col m-2">
+                                        <div class="item col">
                                             <img src="https://media.istockphoto.com/photos/street-vendor-traditional-seafood-dishes-taipei-taiwan-picture-id536507459?k=20&m=536507459&s=612x612&w=0&h=XS-34kD7aZy60pPa8asRxBYgiDdoFE7fQfGWJx464yE="
                                                 width="404" height="300">
                                         </div>
-                                        <div class="item col-7 m-2">
+                                        <div class="item col-7">
                                             <h2 style="text-align:center">Sobre Nosotros</h2>
                                             <p style="text-align:justify">
                                                 Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero
@@ -75,15 +75,15 @@
                                 <!--  -->
                                 <div class="align-items-center">
                                 <div class="row">
-                                    <div class="item col m-2" class="align-items-center">
+                                    <div class="item col" class="align-items-center">
                                         <img src="https://media.istockphoto.com/vectors/gem-stone-vector-icon-isolated-diamond-gem-stone-jewellery-flat-vector-id1291909407?k=20&m=1291909407&s=612x612&w=0&h=sHS9lk43WZWwxOGby_6frkCAaIybT-dCVehDa3qXd8Q="
                                         width="380" height="267" class="rounded">
                                     </div>
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <img src="https://media.istockphoto.com/vectors/electronic-eye-vector-id833077060?k=20&m=833077060&s=612x612&w=0&h=MIaTLrRNLyogQhr-yNbrFvMPrPs_Xo2CeCSmf5I5BEA="
                                             width="260" height="260" class="rounded-circle">
                                     </div>
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <img src="https://media.istockphoto.com/vectors/aim-icon-vector-id899130532?k=20&m=899130532&s=612x612&w=0&h=ov2I9i11riOp2UOH-ltd46D9ZkOwOBIgoIxrmJaL4dw="
                                             width="260" height="260" class="rounded-circle">
                                     </div>
@@ -91,7 +91,7 @@
                                 </div>
                                 <br><br><br><br>
                                 <div class="row">
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <h1 style="text-align:center">Valores</h1>
                                         <p style="text-align:justify">
                                             Al contrario del pensamiento popular, el texto de Lorem Ipsum no es
@@ -100,7 +100,7 @@
                                             adquiera mas de 2000 años de antiguedad. Richard McClintock
                                         </p>
                                     </div>
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <h1 style="text-align:center">Visión</h1>
                                         <p style="text-align:justify">
                                             Al contrario del pensamiento popular, el texto de Lorem Ipsum no es
@@ -109,7 +109,7 @@
                                             adquiera mas de 2000 años de antiguedad. Richard McClintock
                                         </p>
                                     </div>
-                                    <div class="item col m-2">
+                                    <div class="item col">
                                         <h1 style="text-align:center">Misión</h1>
                                         <p style="text-align:justify">
                                             Al contrario del pensamiento popular, el texto de Lorem Ipsum no es
@@ -122,13 +122,13 @@
                                 <!--  -->
                                 <br><br><br>
                                 <div class="row">
-                                <div class="item col m-2">
+                                <div class="item col">
                                     <div class="row">
-                                        <div class="item col m-2">
+                                        <div class="item col">
                                             <img src="https://media.istockphoto.com/photos/portrait-of-a-waiter-in-a-cafe-in-buenos-aires-picture-id1194193465?k=20&m=1194193465&s=612x612&w=0&h=DRJrztmaw74_ZyVbAaqsOukTYhxYrVfu7eu_ZcSRFHs="
                                             width="370" height="250" class="rounded">
                                         </div>
-                                        <div class="item col-7 m-2">
+                                        <div class="item col-7">
                                             <h2 style="text-align:center">Quienes Somos</h2>
                                             <p style="text-align:justify">
                                                 Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero
