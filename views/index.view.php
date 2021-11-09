@@ -29,8 +29,7 @@
             </header>
             <!-- definiendo el menu -->
 
-            <nav id="menu" class="col-12 navbar navbar-dark bg-warning p-0 pl-4
-                                  d-none d-sm-none d-md-block">
+            <nav id="menu" class="col-12 navbar navbar-dark bg-warning p-0 pl-4">
                 <!-- Creando la lista del menu -->
                 <ul class="row w-50">
                     <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="index.view.php">Inicio</a></li>
