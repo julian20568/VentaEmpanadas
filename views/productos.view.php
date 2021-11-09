@@ -43,10 +43,16 @@
             <!-- Creando el contenido -->
             <section id="content" class="col-12">
                 <div class="row">
-                    <section id="products" class="col border">
+                    <section id="products" class="col">
                         <div class="items">
+                            <br>
                             <!--  -->
                             <div class="row">
+                                <div class="col-sm-3">
+                                    <h5 style="text-align:center">Menú</h5>
+                                    <img src="https://media.istockphoto.com/vectors/mexican-spicy-food-restaurant-cafe-icons-and-signs-vector-id1031187780?k=20&m=1031187780&s=612x612&w=0&h=yA8GJQJnM11Vy99nH2kSjCuW3v04FWfHCV95xe3_l0Q="
+                                        class="img-rounded" width="250" height="230">
+                                </div>
                                 <div class="item col">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                         <ol class="carousel-indicators">
@@ -84,9 +90,16 @@
                                         </a>
                                     </div>
                                 </div>
+                                <div class="col-sm-3">
+                                    <p style="text-align:justify">
+                                        Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la
+                                        mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó
+                                        humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a
+                                        utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada
+                                        avergonzante escondido en el medio del texto.
+                                    </p>
+                                </div>
                             </div>
-                            </br></br></br>
-                            </br></br></br>
                             <!--  -->
                             <h2 style="text-align:center">Productos Principales</h2>
                             <div class="row">
@@ -220,7 +233,7 @@
         </section>
         <!-- Pie de pagina -->
         <footer class="col-lg-12 bg-dark text-white h-25" style="text-align:center">
-                Todos los derechos reservados &copy;
+            Todos los derechos reservados &copy;
         </footer>
     </div>
     </div>

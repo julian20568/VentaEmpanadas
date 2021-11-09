@@ -43,7 +43,7 @@
             <!-- Creando el contenido -->
             <section id="content" class="col-12">
                 <div class="row">
-                    <section id="products" class="col border">
+                    <section id="products" class="col">
                         <!--  -->
                         <section>
                             <h1>Contactanos</h1>
@@ -114,9 +114,22 @@
         <br><br><br>
         <br><br><br>
         <br><br><br>
+        <section>
+            <div class="row">
+                <div class="item col-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15944.556673360725!2d-76.58348775!3d2.46075465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1636144106911!5m2!1ses!2sco"
+                        width="1100" height="330" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <br><br><br>
+        <br><br><br>
+        <br><br>
         <!-- Pie de pagina -->
         <footer class="col-lg-12 bg-dark text-white h-25" style="text-align:center">
-                Todos los derechos reservados &copy;
+            Todos los derechos reservados &copy;
         </footer>
     </div>
     </div>

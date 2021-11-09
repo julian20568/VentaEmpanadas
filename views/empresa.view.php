@@ -43,8 +43,9 @@
             <!-- Creando el contenido -->
             <section id="content" class="col-12">
                 <div class="row">
-                    <section id="products" class="col border">
+                    <section id="products" class="col">
                         <div class="items">
+                            <br>
                             <!--  -->
                             <div class="row">
                                 <div class="item col">
