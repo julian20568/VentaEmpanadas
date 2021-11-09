@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/styles.css" />
 </head>
 
@@ -18,18 +19,24 @@
         <!-- Definir fila -->
         <div class="row">
             <!-- Creando el header -->
-            <header class="col-12 bg-primary text-white p-4 pl-5">
-            <img src="https://media.istockphoto.com/vectors/empanadas-vector-vector-id486606660?k=20&m=486606660&s=612x612&w=0&h=gcNo71IwHyym2WWGIcVIbNi6tP41iz_z14R3UBe_Iwk="
+            <header class="col-12 bg-dark text-white p-4 pl-5">
+                <img src="https://media.istockphoto.com/vectors/empanadas-vector-vector-id486606660?k=20&m=486606660&s=612x612&w=0&h=gcNo71IwHyym2WWGIcVIbNi6tP41iz_z14R3UBe_Iwk="
                     width="80" height="80" alt="" class="rounded-circle">
                 Empanadas
+                <a href="https://www.facebook.com/usuario " target="_blank" class="fa fa-facebook-square"></a>
+                <a href="https://twitter.com/usuario" target="_blank" class="fa fa-twitter-square"></a>
+                <a href="https://plus.google.com/usuario" target="_blank" class="fa fa-google-plus-square"></a>
+                <a href="https://linkedin.com/usuario" target="_blank" class="fa fa-linkedin-square"></a>
             </header>
             <!-- definiendo el menu -->
-            <nav id="menu" class="col-12 navbar navbar-dark bg-dark p-0 pl-4">
+            <nav id="menu" class="col-12 navbar navbar-dark bg-warning p-0 pl-4">
                 <!-- Creando la lista del menu -->
                 <ul class="row w-50">
                     <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="index.view.php">Inicio</a></li>
-                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="productos.view.php">Productos</a></li>
-                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white"
+                            href="productos.view.php">Productos</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a>
+                    </li>
                     <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="Contacto.php">Contacto</a></li>
                 </ul>
             </nav>
@@ -57,7 +64,7 @@
                                 <div class="item col-8">
                                     <!-- Formulario Contacto -->
                                     <h3 style="text-align:center">Formulario Contacto</h3>
-                                    
+
                                     <!--Contenedor-->
                                     <div class="wrap">
                                         <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>"
@@ -108,8 +115,8 @@
         <br><br><br>
         <br><br><br>
         <!-- Pie de pagina -->
-        <footer class="col-lg-12 bg-info h-40" style="text-align:center">
-            Todos los derechos reservados &copy;
+        <footer class="col-lg-12 bg-dark text-white h-25" style="text-align:center">
+                Todos los derechos reservados &copy;
         </footer>
     </div>
     </div>

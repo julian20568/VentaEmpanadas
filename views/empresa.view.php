@@ -8,6 +8,7 @@
     <title>App Venta Empanadas</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/styles.css" />
 </head>
 
@@ -17,19 +18,25 @@
         <!-- Definir fila -->
         <div class="row">
             <!-- Creando el header -->
-            <header class="col-12 bg-primary text-white p-4 pl-5">
-            <img src="https://media.istockphoto.com/vectors/empanadas-vector-vector-id486606660?k=20&m=486606660&s=612x612&w=0&h=gcNo71IwHyym2WWGIcVIbNi6tP41iz_z14R3UBe_Iwk="
+            <header class="col-12 bg-dark text-white p-4 pl-5">
+                <img src="https://media.istockphoto.com/vectors/empanadas-vector-vector-id486606660?k=20&m=486606660&s=612x612&w=0&h=gcNo71IwHyym2WWGIcVIbNi6tP41iz_z14R3UBe_Iwk="
                     width="80" height="80" alt="" class="rounded-circle">
                 Empanadas
+                <a href="https://www.facebook.com/usuario " target="_blank" class="fa fa-facebook-square"></a>
+                <a href="https://twitter.com/usuario" target="_blank" class="fa fa-twitter-square"></a>
+                <a href="https://plus.google.com/usuario" target="_blank" class="fa fa-google-plus-square"></a>
+                <a href="https://linkedin.com/usuario" target="_blank" class="fa fa-linkedin-square"></a>
             </header>
             <!-- definiendo el menu -->
 
-            <nav id="menu" class="col-12 navbar navbar-dark bg-dark p-0 pl-4">
+            <nav id="menu" class="col-12 navbar navbar-dark bg-warning p-0 pl-4">
                 <!-- Creando la lista del menu -->
                 <ul class="row w-50">
                     <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="index.view.php">Inicio</a></li>
-                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="productos.view.php">Productos</a></li>
-                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white"
+                            href="productos.view.php">Productos</a></li>
+                    <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="empresa.view.php">Empresa</a>
+                    </li>
                     <li class="col-xs-12 col-sm-12 col-md"><a style="color:white" href="Contacto.php">Contacto</a></li>
                 </ul>
             </nav>
@@ -74,20 +81,20 @@
                                 <br>
                                 <!--  -->
                                 <div class="align-items-center">
-                                <div class="row">
-                                    <div class="item col" class="align-items-center">
-                                        <img src="https://media.istockphoto.com/vectors/gem-stone-vector-icon-isolated-diamond-gem-stone-jewellery-flat-vector-id1291909407?k=20&m=1291909407&s=612x612&w=0&h=sHS9lk43WZWwxOGby_6frkCAaIybT-dCVehDa3qXd8Q="
-                                        width="380" height="267" class="rounded">
+                                    <div class="row">
+                                        <div class="item col" class="align-items-center">
+                                            <img src="https://media.istockphoto.com/vectors/gem-stone-vector-icon-isolated-diamond-gem-stone-jewellery-flat-vector-id1291909407?k=20&m=1291909407&s=612x612&w=0&h=sHS9lk43WZWwxOGby_6frkCAaIybT-dCVehDa3qXd8Q="
+                                                width="380" height="267" class="rounded">
+                                        </div>
+                                        <div class="item col">
+                                            <img src="https://media.istockphoto.com/vectors/electronic-eye-vector-id833077060?k=20&m=833077060&s=612x612&w=0&h=MIaTLrRNLyogQhr-yNbrFvMPrPs_Xo2CeCSmf5I5BEA="
+                                                width="260" height="260" class="rounded-circle">
+                                        </div>
+                                        <div class="item col">
+                                            <img src="https://media.istockphoto.com/vectors/aim-icon-vector-id899130532?k=20&m=899130532&s=612x612&w=0&h=ov2I9i11riOp2UOH-ltd46D9ZkOwOBIgoIxrmJaL4dw="
+                                                width="260" height="260" class="rounded-circle">
+                                        </div>
                                     </div>
-                                    <div class="item col">
-                                        <img src="https://media.istockphoto.com/vectors/electronic-eye-vector-id833077060?k=20&m=833077060&s=612x612&w=0&h=MIaTLrRNLyogQhr-yNbrFvMPrPs_Xo2CeCSmf5I5BEA="
-                                            width="260" height="260" class="rounded-circle">
-                                    </div>
-                                    <div class="item col">
-                                        <img src="https://media.istockphoto.com/vectors/aim-icon-vector-id899130532?k=20&m=899130532&s=612x612&w=0&h=ov2I9i11riOp2UOH-ltd46D9ZkOwOBIgoIxrmJaL4dw="
-                                            width="260" height="260" class="rounded-circle">
-                                    </div>
-                                </div>
                                 </div>
                                 <br><br><br><br>
                                 <div class="row">
@@ -122,31 +129,38 @@
                                 <!--  -->
                                 <br><br><br>
                                 <div class="row">
-                                <div class="item col">
-                                    <div class="row">
-                                        <div class="item col">
-                                            <img src="https://media.istockphoto.com/photos/portrait-of-a-waiter-in-a-cafe-in-buenos-aires-picture-id1194193465?k=20&m=1194193465&s=612x612&w=0&h=DRJrztmaw74_ZyVbAaqsOukTYhxYrVfu7eu_ZcSRFHs="
-                                            width="370" height="250" class="rounded">
-                                        </div>
-                                        <div class="item col-7">
-                                            <h2 style="text-align:center">Quienes Somos</h2>
-                                            <p style="text-align:justify">
-                                                Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero
-                                                la mayoría sufrió alteraciones en alguna manera, ya sea porque se le
-                                                agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.
-                                                Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de
-                                                que no hay nada avergonzante escondido en el medio del texto. Todos los
-                                                generadores de Lorem Ipsum que se encuentran en Internet tienden a
-                                                repetir trozos predefinidos cuando sea necesario, haciendo a este el
-                                                único generador verdadero (válido) en la Internet. Usa un diccionario de
-                                                mas de 200 palabras provenientes del latín, combinadas con estructuras
-                                                muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca
-                                                razonable.
-                                            </p>
+                                    <div class="item col">
+                                        <div class="row">
+                                            <div class="item col">
+                                                <img src="https://media.istockphoto.com/photos/portrait-of-a-waiter-in-a-cafe-in-buenos-aires-picture-id1194193465?k=20&m=1194193465&s=612x612&w=0&h=DRJrztmaw74_ZyVbAaqsOukTYhxYrVfu7eu_ZcSRFHs="
+                                                    width="370" height="250" class="rounded">
+                                            </div>
+                                            <div class="item col-7">
+                                                <h2 style="text-align:center">Quienes Somos</h2>
+                                                <p style="text-align:justify">
+                                                    Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles,
+                                                    pero
+                                                    la mayoría sufrió alteraciones en alguna manera, ya sea porque se le
+                                                    agregó humor, o palabras aleatorias que no parecen ni un poco
+                                                    creíbles.
+                                                    Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro
+                                                    de
+                                                    que no hay nada avergonzante escondido en el medio del texto. Todos
+                                                    los
+                                                    generadores de Lorem Ipsum que se encuentran en Internet tienden a
+                                                    repetir trozos predefinidos cuando sea necesario, haciendo a este el
+                                                    único generador verdadero (válido) en la Internet. Usa un
+                                                    diccionario de
+                                                    mas de 200 palabras provenientes del latín, combinadas con
+                                                    estructuras
+                                                    muy útiles de sentencias, para generar texto de Lorem Ipsum que
+                                                    parezca
+                                                    razonable.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                         </div>
                         <br><br><br>
                         <br><br><br>
@@ -154,8 +168,8 @@
                 </div>
             </section>
             <!-- Pie de pagina -->
-            <footer class="col-lg-12 bg-info h-40" style="text-align:center">
-            Todos los derechos reservados &copy;
+            <footer class="col-lg-12 bg-dark text-white h-25" style="text-align:center">
+                Todos los derechos reservados &copy;
             </footer>
         </div>
     </div>
@@ -169,4 +183,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

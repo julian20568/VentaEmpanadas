@@ -133,3 +133,41 @@ form input[type="submit"]{
 		height: auto;
 	}
 }
+
+/* iconos redes sociales */
+.fa-facebook-square:hover {
+	color:#3B5998;
+	}
+	.fa-twitter-square:hover {
+	color:#55acee;
+	}
+	.fa-google-plus-square:hover{
+	color:#dd4b39;
+	}
+	.fa-linkedin-square:hover{
+	color:#0177B5;
+	}
+	.fa-facebook-square {
+	font-size: 52px;
+	color: gray;
+	float: right;
+	padding: .1em;
+	}
+	.fa-twitter-square {
+	font-size: 52px;
+	color: gray;
+	float: right;
+	padding: .1em;
+	}
+	.fa-google-plus-square {
+	font-size: 52px;
+	color: gray;
+	float: right;
+	padding: .1em;
+	}
+	.fa-linkedin-square {
+	font-size: 52px;
+	color: gray;
+	float: right;
+	padding: .1em;
+	}
